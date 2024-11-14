@@ -1,78 +1,64 @@
-Requirements Specification: Flappy bird
 
-Game Name: Rising Roadruner
-Team Members: Jayson doutree, David Avila
-Client: Ms. Kenndey
-Date: 11/14/2024
+# Requirements Specification: [Game Name]
 
-Game Overview
-	Just flappy bird but with a New Mexico skin\retexturing 
+**Game Name:** Rising Roadrunner  
+**Team Members:** Jayson R. Doutree & David Avila  
+**Client:** Doutree Media Group Southwest Region & Doutree Media Group U.P 
+**Date:** 11/14/24  
 
+---
 
+## Game Overview
+   - **Brief Description**: A remixed version of *Flappy Bird* set against a New Mexican mountain landscape. Players control a roadrunner flying through an endless loop of New Mexican-style buildings, avoiding obstacles, and aiming for a high score.
+   - **Goal Of The Game**: Reach and surpass 100 buildings without hitting obstacles to win, or play for the highest score possible.
 
-Functional Requirements
-	•	Core Features:
+## Functional Requirements
 
-The game must feature a simple, fast-paced environment where the player controls a bird.
-The bird should be able to flap upwards when the player interacts (e.g., by tapping or pressing a button).
-The bird must fall due to gravity when not flapping.
-The game should include randomly generated obstacles (pipes) that the bird must navigate through.
-The game must track and display the player's score, which increases as the bird successfully passes through pipes.
-The game should end when the bird collides with a pipe or the ground.
-The game must display a restart option after the game ends.
-High scores should be saved (locally, if necessary).
+### Core Features
+   - **Gameplay Mechanics**: Players control the roadrunner, navigating an endless level of New Mexican-style obstacles.
+   - **Winning Condition**: The game is won when players surpass 100 buildings.
+   - **Game Over Condition**: Players get a game over if they collide with any building or obstacle.
+   - **Score Tracking**: Keeps track of the player’s highest score and number of buildings cleared.
+   - **Progress Save**: Saves the highest score and player achievements for each session.
 
+### User Interactions
+   - **Controls**: The player taps or clicks to make the roadrunner flap its wings and stay aloft.
+   - **Game Flow**: Players can start, pause, and reset the game with on-screen buttons or keyboard commands.
 
+## Non-Functional Requirements
 
-**	•	What must the game do? (E.g., login, save progress, track scores, level progression)**
+### Usability
+   - **Design**: The game should be intuitive, with clear, easy-to-use controls suitable for all ages.
+   - **Visual Indicators**: Displays the score and progress visually on the main screen.
 
-Track the score, updating it as the bird successfully navigates through obstacles.
-Detect collisions with obstacles or the ground to trigger the end of the game.
-Reset the game when the player chooses to restart after a game over.
-Optionally, save high scores locally.
+### Performance
+   - **Frame Rate**: The game should maintain a consistent frame rate of 60 FPS.
+   - **Load Time**: Loads within 5 seconds for smooth, uninterrupted gameplay.
 
+### Cross-Platform Compatibility
+   - **Platform Support**: The game should be accessible on PC and mobile platforms.
+   - **Responsive Design**: Adapts layout and controls to various screen sizes, ensuring a smooth experience on all devices.
 
-	**•	How does the player interact with the game?  **
-    The player interacts with the game by tapping the screen (or pressing a key) to make the bird flap and move upward.
-    When the player releases the tap (or key), the bird begins to fall due to gravity.
-    Players can restart the game by tapping the screen (or pressing a button) after the game ends.
+## Design Requirements
 
+### Graphics and Visuals
+   - **Style**: Clean, Southwestern-themed graphics with smooth animations.
+   - **Background**: New Mexican mountain landscape with sunset and pinkish-hued mountains.
+   - **Obstacles**: Replace pipes with New Mexican-style adobe buildings or structures.
 
+### Audio
+   - **Sound Effects**: Sounds for flapping, game over, and reaching 100 buildings.
+   - **Background Music**: Light Southwestern or desert-themed music that complements the game’s ambiance.
 
-Non-Functional Requirements
-	•	Usability:
-	•	How should the game be designed for the player? (E.g., easy to understand, intuitive controls)
-It should be real simple to play and learn but is very difficult
+## Data Requirements
+   - **Data to Track**: Player’s highest score, progress (number of buildings cleared), and game completion.
+   - **Data Storage**: Saves data locally on the device. Optionally, a leaderboard could be implemented for online high score tracking.
 
+## Collaboration with Client
 
-	•	Performance:
-	•	How should the game perform? (E.g., frame rate, load time, number of players supported)
-It should run at least 60fps load quick and is single player only
+### Feedback Collection
+   - **Feedback Methods**: Gather feedback from the client (Doutree Media Southwest Region & U.P) through playtesting sessions, surveys, and direct meetings after each sprint in our ABQ, PHX, and MQT locations.
 
-
-	•	Cross-Platform Compatibility:
-	•	Does the game need to work on multiple devices or platforms? (E.g., PC, mobile, tablet)
-Computer and mobile 
-
-Design Requirements
-	•	Graphics and Visuals:
-	•	Style of the game graphics (e.g., retro, pixelated, smooth animations)
-Basic art style or real images 
-
-
-	•	Audio:
-	•	What kind of sound effects or music will be used?
-basic flapping and point sounds
-
-
-Data Requirements
-	•	What data needs to be saved or tracked? (E.g., high scores, player progress, achievements)
-	•	How will the data be stored? (e.g., in-game memory, online storage)
-The high score will be stored with in-game memory
-
-
-
-Collaboration with Client
-	•	How will you gather feedback from the client in each sprint? (E.g., through surveys, playtesting, direct meetings)
-	•	How will you ensure the game is developing according to the client's needs?
-Playtesting to make sure it works
+### Ensuring Client Satisfaction
+   - **Progress Demos**: Provide demo versions at key milestones, allowing the client to give input on the game’s progress.
+   - **Incorporating Feedback**: Integrate client feedback to refine gameplay, visuals, and audio in alignment with the New Mexican theme.
