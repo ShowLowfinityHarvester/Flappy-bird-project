@@ -1,6 +1,3 @@
-
-# Requirements Specification: [Game Name]
-
 **Game Name:** Rising Roadrunner  
 **Team Members:** Jayson R. Doutree & David Avila  
 **Client:** Doutree Media Group Southwest Region & Doutree Media Group U.P 
