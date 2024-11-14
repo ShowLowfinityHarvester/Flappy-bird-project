@@ -1,5 +1,7 @@
 **Team members:** Jayson R. Doutree & David Avila
+
 **Client:** Doutree Media Group Southwest Region & Doutree Media Group U.P
+
 **Date:** 11/14/24
 
 ---
