@@ -28,5 +28,4 @@
     - The Re-skin captures the New Mexican landscape Vibe
 
 # Requirements:
-
-This game shoul d feature a New Mexican landscape type theme, with a sunset and mountains in the background, showcasing the iconic pinkish hue of the mountains. Pipes are replaced with New Mexican-style buildings to further capture the feel.
+    This game should feature a New Mexican landscape type theme, with a sunset and mountains in the background, showcasing the iconic pinkish hue of the mountains. Pipes are replaced with New Mexican-style buildings to further capture the feel.
