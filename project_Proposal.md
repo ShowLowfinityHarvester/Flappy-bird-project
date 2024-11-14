@@ -1,7 +1,7 @@
 # Team members: Jayson R. Doutree & David Avila
 
 # Idea: 
-- The idea of the game
+- The idea of the game 
 # Age Group: 
 - This game is aimed for those who are Under 13 (E)
 
@@ -24,4 +24,4 @@ This game will be successful only if
 
 # Requirements
 
-This game should have a reskin with a southwestern type vibe,
+This game should have a reskin with a New Mexican landscape type vibe.
