@@ -3,10 +3,10 @@
 
 | Test Case                          | Test Data                            | Expected Outcome                                                                 |
 |------------------------------------|--------------------------------------|---------------------------------------------------------------------------------|
-| Player movement              | Player taps/clicks                   | Roadrunner moves upward in response to each tap/click.                          |
-| Gravity application                | No player input                      | Roadrunner gradually descends due to gravity.                                   |
-| Collision detection with obstacles | Roadrunner hits a building           | Game transitions to “Game Over” state.                                          |
-| Boundary detection (top/bottom)    | Roadrunner flies above screen/below  | Roadrunner is restricted within screen boundaries or triggers “Game Over.”      |
+| Player movement                    | Player taps/clicks                   | Roadrunner moves upward in response to each tap or click.                       |
+| No input                           | No player input                      | Roadrunner gradually descends from gravity.                                     |
+| Collision detection with buildings | Roadrunner hits a building           | Game transitions to a game over state.                                          |
+| Boundary detection                 | Roadrunner flies above/below screen  | Roadrunner is restricted within screen boundaries or triggers “Game Over.”      |
 
 ---
 
@@ -16,8 +16,8 @@
 | Test Case                          | Test Data                            | Expected Outcome                                                                 |
 |------------------------------------|--------------------------------------|---------------------------------------------------------------------------------|
 | Scoring per building passed        | Roadrunner passes 1, 5, 100 buildings| Score increases by 1 per building; score = number of buildings passed.          |
-| Win condition                      | Roadrunner passes 100 buildings      | Game transitions to “Victory” screen when score reaches 100.                    |
-| Game over condition                | Roadrunner collides with a building  | Game displays “Game Over” screen and prompts restart or return to menu.         |
+| Win condition                      | Roadrunner passes 100 buildings      | Game transitions to a victory screen when score reaches 100.                    |
+| Game over condition                | Roadrunner collides with a building  | Game displays a game over screen and prompts restart or return to menu.         |
 
 ---
 
@@ -38,7 +38,7 @@
 
 | Test Case                          | Test Data                            | Expected Outcome                                                                 |
 |------------------------------------|--------------------------------------|---------------------------------------------------------------------------------|
-| Collision + Scoring                | Roadrunner passes 10 buildings, then hits one | Game updates score to 10 and transitions to “Game Over” without delay.          |
+| Collision + Scoring                | Roadrunner passes 10 buildings, then hits one | Game updates score to 10 and transitions to a game over without delay.          |
 | Menu and gameplay interaction      | Player pauses the game               | Game pauses all movement and displays menu options.                             |
 | High score saving                  | Player scores higher than current high score | New high score is saved and displayed on the main menu.                         |
 
@@ -62,14 +62,14 @@
 |----------------------------------|----------------------------------------|---------------------------------------------------------------------------------|
 | Player movement                  | Player taps/clicks                     | Roadrunner moves upward in response to input.                                   |
 | Gravity application              | No player input                        | Roadrunner descends gradually.                                                  |
-| Collision detection              | Roadrunner hits a building             | Game displays “Game Over” screen.                                               |
+| Collision detection              | Roadrunner hits a building             | Game displays a game over screen.                                               |
 | Scoring                          | Roadrunner passes buildings            | Score increases by 1 for each building passed.                                  |
 | Maximum score boundary           | Score reaches 9999                     | Game continues; score capped at 9999.                                           |
 | Pause menu interaction           | Player pauses during gameplay          | Gameplay pauses, menu appears; resumes smoothly after unpausing.                |
 | Invalid input handling           | Player presses invalid keys            | Invalid keys are ignored; game continues without errors.                        |
 | High score saving                | Player achieves a new high score       | New high score is saved and displayed on main menu.                             |
-| Victory condition                | Player passes 100 buildings            | Game transitions to “Victory” screen.                                           |
-| Game over condition              | Player hits an obstacle                | Game transitions to “Game Over” screen.                                         |
+| Victory condition                | Player passes 100 buildings            | Game transitions to a victory screen.                                           |
+| Game over condition              | Player hits an obstacle                | Game transitions to a game over screen.                                         |
 | Restart functionality            | Player selects restart from menu       | Game resets all variables and restarts gameplay loop.                           |
 
 ---
