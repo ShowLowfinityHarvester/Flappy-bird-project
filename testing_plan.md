@@ -3,7 +3,7 @@
 
 | Test Case                          | Test Data                            | Expected Outcome                                                                 |
 |------------------------------------|--------------------------------------|---------------------------------------------------------------------------------|
-| Player movement (flap)             | Player taps/clicks                   | Roadrunner moves upward in response to each tap/click.                          |
+| Player movement              | Player taps/clicks                   | Roadrunner moves upward in response to each tap/click.                          |
 | Gravity application                | No player input                      | Roadrunner gradually descends due to gravity.                                   |
 | Collision detection with obstacles | Roadrunner hits a building           | Game transitions to “Game Over” state.                                          |
 | Boundary detection (top/bottom)    | Roadrunner flies above screen/below  | Roadrunner is restricted within screen boundaries or triggers “Game Over.”      |
