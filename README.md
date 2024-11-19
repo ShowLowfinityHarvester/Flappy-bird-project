@@ -1,3 +1,4 @@
+##**School Project!!! Ignore**
 ## **Project Description**
 Rising Roadrunner is a remixed version of the classic Flappy Bird game, featuring a vibrant New Mexican mountain theme. Players control a roadrunner as it navigates through adobe-style buildings, earning points for each obstacle passed. The game is simple yet challenging, with a goal of reaching 100 points to win or achieving a high score.
 
